@@ -4,9 +4,9 @@
 使用goreleaser 发布go 项目的二进制项目； 
 
 ### 步骤
-1、<project>/Settings/Secrets 添加 githubtoken(Settings/ Developer settings/Personal access tokens 生成token)
-2、<project>/Actions/New workflow，选择go ，用go.yml 替换掉 网页中的内容；
-3、add tag 完成，push tag，即可自动构建二进制到release。
+- <project>/Settings/Secrets 添加 githubtoken(Settings/ Developer settings/Personal access tokens 生成token)
+- <project>/Actions/New workflow，选择go ，用go.yml 替换掉 网页中的内容
+- add tag 完成，push tag，即可自动构建二进制到release。
 
 ### go.yml
 ```
